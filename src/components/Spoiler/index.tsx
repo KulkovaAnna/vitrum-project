@@ -41,14 +41,20 @@ export default function Spoiler(props: PropsWithChildren<Props>) {
 
   return (
     <>
-      <div
-        className={clsx({
-          [styles.spoiler]: !isShown,
-          [styles.cleanButton]: true,
-        })}
-        onClick={handleClick}
-      >
-        {props.children}
+      <div className={styles.container} onClick={handleClick}>
+        <div
+          className={clsx({
+            [styles.spoiler]: !isShown,
+            [styles.cleanButton]: true,
+          })}
+        >
+          {props.children}
+        </div>
+        {!isShown && (
+          <div className={styles.clickToSeeBlock}>
+            {translate({ id: 'theme.spoiler.clickToSee' })}
+          </div>
+        )}
       </div>
       <Modal
         isOpen={isModalOpen}

@@ -344,22 +344,22 @@
   "theme.characterPage.palette.mood": {
     "message": "Mood"
   },
-  "theme.characterPage.moodBoard.image1": {
+  "theme.characterPage.moodBoard.fox.image1": {
     "message": "Sniper rifle"
   },
-  "theme.characterPage.moodBoard.image2": {
+  "theme.characterPage.moodBoard.fox.image2": {
     "message": "Cigarette smoke"
   },
-  "theme.characterPage.moodBoard.image3": {
+  "theme.characterPage.moodBoard.fox.image3": {
     "message": "Scarf"
   },
-  "theme.characterPage.moodBoard.image4": {
+  "theme.characterPage.moodBoard.fox.image4": {
     "message": "Picture on wall"
   },
-  "theme.characterPage.moodBoard.image5": {
+  "theme.characterPage.moodBoard.fox.image5": {
     "message": "Roofs"
   },
-  "theme.characterPage.moodBoard.image6": {
+  "theme.characterPage.moodBoard.fox.image6": {
     "message": "Fox"
   },
   "theme.spoiler.modal.title": {
@@ -385,5 +385,26 @@
   },
   "theme.characterPage.roleChip.tertiary": {
     "message": "Minor character"
+  },
+  "theme.characterPage.moodBoard.jett.image1": {
+    "message": "Glass hand"
+  },
+  "theme.characterPage.moodBoard.jett.image2": {
+    "message": "Fang"
+  },
+  "theme.characterPage.moodBoard.jett.image3": {
+    "message": "Roofs"
+  },
+  "theme.characterPage.moodBoard.jett.image4": {
+    "message": "Animal book opened on a page with wolf"
+  },
+  "theme.characterPage.moodBoard.jett.image5": {
+    "message": "Simba in the shadow of Mufasa"
+  },
+  "theme.characterPage.moodBoard.jett.image6": {
+    "message": "Glass shards"
+  },
+  "theme.spoiler.clickToSee": {
+    "message": "Click here to see spoiler"
   }
 }

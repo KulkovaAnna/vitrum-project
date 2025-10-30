@@ -27,3 +27,30 @@ export const FOX_PALETTE: Palette = new Map([
     },
   ],
 ]);
+
+export const JETT_PALETTE: Palette = new Map([
+  [
+    translate({ id: 'theme.characterPage.palette.cloth' }),
+    {
+      colors: ['#FFFFFF', '#381f07', '#000000'],
+      gradient:
+        'radial-gradient(circle,rgba(255, 255, 255, 1) 0%, rgba(56, 31, 7, 1) 50%, rgba(0, 0, 0, 1) 100%)',
+    },
+  ],
+  [
+    translate({ id: 'theme.characterPage.palette.body' }),
+    {
+      colors: ['#f2d4b8', '#000000', '#6abaa7'],
+      gradient:
+        'radial-gradient(circle,rgba(242, 212, 184, 1) 0%, rgba(106, 186, 167, 1) 50%, rgba(0, 0, 0, 1) 100%)',
+    },
+  ],
+  [
+    translate({ id: 'theme.characterPage.palette.mood' }),
+    {
+      colors: ['#d11f2b', '#f05f22', '#d6c6bf'],
+      gradient:
+        'radial-gradient(circle,rgba(209, 31, 43, 1) 0%, rgba(240, 95, 34, 1)  50%, rgba(214, 198, 191, 1) 100%',
+    },
+  ],
+]);

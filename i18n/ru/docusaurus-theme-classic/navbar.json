@@ -10,5 +10,13 @@
   "item.label.Characters": {
     "message": "Персонажи",
     "description": "Navbar item with label Characters"
+  },
+  "title": {
+    "message": "Витрум-Вики",
+    "description": "The title in the navbar"
+  },
+  "item.label.World": {
+    "message": "Мир",
+    "description": "Navbar item with label World"
   }
 }

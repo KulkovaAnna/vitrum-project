@@ -344,22 +344,22 @@
   "theme.characterPage.palette.mood": {
     "message": "Настроение"
   },
-  "theme.characterPage.moodBoard.image1": {
+  "theme.characterPage.moodBoard.fox.image1": {
     "message": "Снайперская винтовка"
   },
-  "theme.characterPage.moodBoard.image2": {
+  "theme.characterPage.moodBoard.fox.image2": {
     "message": "Курение"
   },
-  "theme.characterPage.moodBoard.image3": {
+  "theme.characterPage.moodBoard.fox.image3": {
     "message": "Шарф"
   },
-  "theme.characterPage.moodBoard.image4": {
+  "theme.characterPage.moodBoard.fox.image4": {
     "message": "Картинка мелом"
   },
-  "theme.characterPage.moodBoard.image5": {
+  "theme.characterPage.moodBoard.fox.image5": {
     "message": "Крыши"
   },
-  "theme.characterPage.moodBoard.image6": {
+  "theme.characterPage.moodBoard.fox.image6": {
     "message": "Лиса"
   },
   "theme.spoiler.modal.title": {
@@ -385,5 +385,26 @@
   },
   "theme.characterPage.roleChip.tertiary": {
     "message": "Эпизодический персонаж"
+  },
+  "theme.characterPage.moodBoard.jett.image1": {
+    "message": "Стеклянная рука"
+  },
+  "theme.characterPage.moodBoard.jett.image2": {
+    "message": "Клык на ладони"
+  },
+  "theme.characterPage.moodBoard.jett.image3": {
+    "message": "Крыши"
+  },
+  "theme.characterPage.moodBoard.jett.image4": {
+    "message": "Книга про животных, открытая на странице с волком"
+  },
+  "theme.characterPage.moodBoard.jett.image5": {
+    "message": "Симба в тени Муфасы"
+  },
+  "theme.characterPage.moodBoard.jett.image6": {
+    "message": "Осколки стекла"
+  },
+  "theme.spoiler.clickToSee": {
+    "message": "Кликните, чтобы увидеть спойлер"
   }
 }
