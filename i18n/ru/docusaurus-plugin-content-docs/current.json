@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.charactersSidebar.category.\"Дог\"": {
+    "message": "\"Дог\"",
+    "description": "The label for category '\"Дог\"' in sidebar 'charactersSidebar'"
+  },
+  "sidebar.worldSidebar.category.Локации": {
+    "message": "Локации",
+    "description": "The label for category 'Локации' in sidebar 'worldSidebar'"
+  }
+}

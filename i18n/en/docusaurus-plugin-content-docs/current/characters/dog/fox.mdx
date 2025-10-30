@@ -1,0 +1,182 @@
+---
+id: fox
+---
+
+# Fox
+
+import {
+  CharacterPagePalette,
+  CharacterPageRoleChip,
+  CharacterPageInfoBlock,
+  CharacterPageImagesBoard,
+  QuotePlayer,
+  Grid,
+  Spoiler,
+} from '@/components';
+import { FOX_PALETTE } from '@/constants/characters/palettes.ts';
+import { FOX_MOOD_BOARD } from '@/constants/characters/moodBoards';
+
+<img
+  src="/en/img/characters/fox/Fox.png"
+  alt="Fox character portrait"
+  className="portrait"
+/>
+
+## _Basic Information_
+
+<CharacterPageRoleChip role="secondary" />
+
+<Grid className="mt" columns={2}>
+  <div>
+    <CharacterPageInfoBlock label="Gender" id="char-sex">
+      Male
+    </CharacterPageInfoBlock>
+    <CharacterPageInfoBlock label="Real Name" id="char-realName">
+      Anthony
+    </CharacterPageInfoBlock>
+  </div>
+  <div>
+    <CharacterPageInfoBlock label="Age" id="char-age">
+      <ul>
+        <li>At the beginning of the story: 25</li>
+        <li>At the end of the story: 27</li>
+      </ul>
+    </CharacterPageInfoBlock>
+  </div>
+</Grid>
+
+<CharacterPageInfoBlock label="Short Description" id="char-short-description">
+  Fox is the embodiment of a cynical survivor in the cruel world of the
+  wasteland. His red hair and amber, predatory eyes reflect his foxy nature:
+  cautious, observant, and always ready to strike. He is an experienced scout
+  and a skilled marksman, his movements honed by years of struggle. Secretive
+  and silent, he prefers to observe and listen rather than engage in
+  conversation. Behind his mask of cynicism lies a deep vulnerability; he fears
+  trust, betrayal, and his own growing attachment to those he protects. His
+  greatest battle is not with the Jesters, but with himself—a conflict between
+  his ingrained habit of seeing threats everywhere and a longing for something
+  genuine, which surfaces in quiet moments by the campfire or in the trembling
+  line of chalk on a wall. Even his name is more than an alias; it is his
+  essence: a predator prowling in the darkness who, against all odds, sometimes
+  allows himself to believe in warmth.
+</CharacterPageInfoBlock>
+
+---
+
+## _Appearance_
+
+<Grid columns={3} mobileAdaptive>
+  <CharacterPageInfoBlock label="Height" id="char-height">
+    185 cm
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Weight" id="char-weight">
+    70 kg
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Body Type" id="char-body-type">
+    Lean and wiry, with a predator's grace.
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Skin Tone" id="char-body-color">
+    Fair
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Hairstyle" id="char-hair-type">
+    Short, tousled hair
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Hair Color" id="char-hair-color">
+    Red
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Eye Color" id="char-eye-color">
+    Amber
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Face Shape" id="char-face">
+    Angular, with sharp cheekbones and a strong jawline.
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Voice" id="char-voice">
+    <QuotePlayer
+      src="/en/audio/characters/fox/voices/sample-3s.mp3"
+      quote="If you want... I can teach you my techniques. How to see without being seen. How to walk without making a sound. How to blend with the shadows, even in broad daylight."
+    />
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Distinguishing Features" id="char-features">
+    <ul>
+      <li>Almost always wears a worn, thick scarf.</li>
+      <li>Constant red stubble.</li>
+      <li>Rough, scarred hands.</li>
+      <li>
+        Tattoos covering his entire body, except for his face; prominent on his
+        neck and arms.
+      </li>
+      <li>A habitual slouch.</li>
+    </ul>
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Clothing" id="char-cloth">
+    <ul>
+      <li>A beige trench coat with a high collar.</li>
+      <li>Camouflage pants.</li>
+      <li>Worn-out boots.</li>
+      <li>During missions, he is loaded down with tactical gear.</li>
+    </ul>
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Favorite Weapon" id="char-gun">
+    A Zastava M91-style sniper rifle.
+  </CharacterPageInfoBlock>
+</Grid>
+
+---
+
+## _Skills_
+
+<Grid columns={3} mobileAdaptive>
+  <CharacterPageInfoBlock label="Physical" id="char-fiz-stat">
+    Agile and fast. Skilled at hiding, both in shadows and in plain sight.
+    Possesses strength that matches his physical capabilities.
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Combat" id="char-battle-stat">
+    An excellent sniper. Proficient with a pistol and a knife. Has developed
+    several personal hand-to-hand combat techniques.
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Social" id="char-social-stat">
+    An excellent tactician and scout. Capable of discerning what others leave
+    unsaid or intentionally conceal. Has very low empathy and zero emotional
+    intelligence, which causes difficulties with informal communication.
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Additional" id="char-add-stat">
+    A former thief and vagrant. Highly skilled with lockpicks and a crowbar.
+    Proficient at stealing and excellent at hiding in the shadows.
+  </CharacterPageInfoBlock>
+</Grid>
+
+---
+
+## _Backstory_
+
+<Spoiler>
+  The origins of Fox are shrouded in mystery. All that is known is that at the
+  age of five, he was sold to slave traders by his mother. He spent seven long
+  years in chains until he miraculously gained his freedom one day. The
+  following four years of wandering the wastelands hardened him: he survived
+  through theft, trusted no one, formed no attachments, and never stayed in one
+  place for longer than a month. His fate changed when he tried to steal
+  supplies from the Family—a local raider gang. He was caught red-handed by Dane
+  himself. However, instead of punishment, the stranger offered him something
+  unimaginable: a place among them and a new name. He didn't lecture him or
+  demand oaths, only work for the common good. Fox, accustomed to betrayal, met
+  this luck with the deepest suspicion. But soon he realized that Dane was a man
+  whose words matched his deeds. Wanting to justify the trust placed in him, Fox
+  began serving the community devotedly, and his loyalty did not go unnoticed.
+  Dane highly valued his loyalty and insight, seeing in him a valuable fighter.
+  Over the next nine years, Fox rose from a thief to the head of intelligence,
+  earning universal recognition. And although he earned his status with blood
+  and sweat, deep down he still doubts whether he truly deserves it all.
+</Spoiler>
+
+---
+
+## _Palette_
+
+<CharacterPagePalette palette={FOX_PALETTE} />
+
+---
+
+## _Mood board_
+
+<CharacterPageImagesBoard images={FOX_MOOD_BOARD} locale="en" />

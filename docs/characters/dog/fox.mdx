@@ -1,0 +1,173 @@
+---
+id: fox
+---
+
+# Лис
+
+import {
+  CharacterPagePalette,
+  CharacterPageRoleChip,
+  CharacterPageInfoBlock,
+  CharacterPageImagesBoard,
+  QuotePlayer,
+  Grid,
+  Spoiler,
+} from '@/components';
+import { FOX_PALETTE } from '@/constants/characters/palettes.ts';
+import { FOX_MOOD_BOARD } from '@/constants/characters/moodBoards';
+
+<img
+  src="/img/characters/fox/Fox.png"
+  alt="Портрет персонажа Лис"
+  className="portrait"
+/>
+
+## _Основная информация_
+
+<CharacterPageRoleChip role="secondary" />
+
+<Grid className="mt" columns={2}>
+  <div>
+    <CharacterPageInfoBlock label="Пол" id="char-sex">
+      Мужской
+    </CharacterPageInfoBlock>
+    <CharacterPageInfoBlock label="Настоящее имя" id="char-realName">
+      Энтони
+    </CharacterPageInfoBlock>
+  </div>
+  <div>
+    <CharacterPageInfoBlock label="Возраст" id="char-age">
+      <ul>
+        <li> В начале истории: 25</li>
+        <li> В конце истории: 27</li>
+      </ul>
+    </CharacterPageInfoBlock>
+  </div>
+</Grid>
+
+<CharacterPageInfoBlock label="Краткое описание" id="char-short-description">
+  Лис — воплощение выжившего циника в жестоком мире пустоши. Его рыжие волосы и
+  жёлтые, хищные глаза выдают лисью натуру: осторожную, наблюдательную, с
+  постоянной готовностью к удару. Он опытный разведчик и меткий стрелок, чьи
+  движения отточены годами борьбы. Он скрытен, молчалив, предпочитает наблюдать
+  и слушать, а не вести разговоры. За маской цинизма скрывается глубокая
+  уязвимость: он боится доверия, предательства, своей же привязанности к тем,
+  кого защищает. Его главная борьба — не с Шутами, а с самим собой: между
+  привычкой видеть во всём угрозу и тягой к чему-то настоящему, что прорывается
+  в моменты тишины у костра или в дрожащей линии мела на стене. Даже его имя —
+  не кличка, а суть: хищник, который рыщет в темноте, но иногда, вопреки всему,
+  позволяет себе поверить в тепло.
+</CharacterPageInfoBlock>
+
+---
+
+## _Внешность_
+
+<Grid columns={3} mobileAdaptive>
+  <CharacterPageInfoBlock label="Рост" id="char-height">
+    185см
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Вес" id="char-weight">
+    70кг
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Телосложение" id="char-body-type">
+    Сухое, поджарое, с "грацией хищника"
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Цвет кожи" id="char-body-color">
+    Светлая
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Причёска" id="char-hair-type">
+    Короткие всклокоченные волосы
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Цвет волос" id="char-hair-color">
+    Рыжий
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Цвет глаз" id="char-eye-color">
+    Янтарный
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Форма лица" id="char-face">
+    Угловатая, с резкими скулами и сильной челюстью
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Голос" id="char-voice">
+    {/* Средний тембр. Разговаривает тихо, но чётко */}
+    <QuotePlayer
+      src="/audio/characters/fox/voices/sample-3s.mp3"
+      quote="Если ты захочешь… Я могу научить тебя своим приёмам. Как видеть, но быть невидимым. Как ходить так, чтобы тебя не слышали. Как сливаться с тенями, даже средь бела дня."
+    />
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock
+    label="Отличительные черты внешности"
+    id="char-features"
+  >
+    Потрёпанный шарф, который он редко снимает. Рыжая щетина, грубые руки в
+    царапинах. Татуировки по всему телу (кроме лица), в том числе на шее и
+    руках. Горбится.
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Одежда" id="char-cloth">
+    Бежевый тренч с высоким воротником, камуфляжные штаны, потертые сапоги,
+    толстый серый шарф. Во время вылазок обвешан разгрузками
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Любимое оружие" id="char-gun">
+    Снайперская винтовка (типа Заставы М91)
+  </CharacterPageInfoBlock>
+</Grid>
+
+---
+
+## _Навыки_
+
+<Grid columns={3} mobileAdaptive>
+  <CharacterPageInfoBlock label="Физические" id="char-fiz-stat">
+    Ловкий и быстрый. Хорошо умеет скрываться как в тенях, так и на виду. Силён
+    в меру своих физических показателей
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Боевые" id="char-battle-stat">
+    Отлично обращается со снайперской винтовкой. Неплохо — с пистолетом и ножом.
+    Имеет несколько собственных боевых приёмов рукопашного боя.
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Социальные" id="char-social-stat">
+    Отличный тактик и разведчик. Способен замечать то, что недоговаривают или
+    скрывают другие. Очень низкая эмпатия и нулевой эмоциональный интеллект,
+    имеет проблемы в неформальном общении
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Дополнительно" id="char-add-stat">
+    Бывший вор и бродяга. Хорошо управляется с отмычками и ломом, неплохо
+    ворует, отлично умеет скрываться в тенях
+  </CharacterPageInfoBlock>
+</Grid>
+
+---
+
+## _Предыстория_
+
+<Spoiler>
+  Происхождение Лиса окутано мраком неизвестности. Известно лишь, что в пять лет
+  мать продала его работорговцам. Семь долгих лет он провел в оковах, пока
+  однажды чудом не обрел свободу. Последовавшие за этим четыре года скитаний по
+  пустошам ожесточили его: он выживал воровством, никому не доверял и ни к кому
+  не привязывался, никогда не задерживаясь на одном месте дольше месяца. Судьба
+  его переменилась, когда он в очередной раз попытался поживиться запасами Семьи
+  — местной рейдерской банды. Его поймал с поличным сам Дог. Однако вместо
+  расправы незнакомец предложил ему нечто невообразимое — место среди своих и
+  новое имя. Он не стал читать нотаций и не потребовал клятв, лишь работу на
+  общее благо. Лис, привыкший к предательству, встретил эту удачу с глубочайшим
+  подозрением. Но вскоре он понял, что Дог — человек, чьи слова не расходятся с
+  делом. Желая оправдать оказанное доверие, Лис стал беззаветно служить общине,
+  и его преданность не осталась незамеченной. Дог высоко ценил его верность и
+  проницательность, видя в нем ценнейшего бойца. За девять лет Лис прошел путь
+  от вора до главы разведки, добившись всеобщего признания. И хотя он заслужил
+  свой статус кровью и потом, в глубине души он все еще сомневается: а достоин
+  ли он всего этого?
+</Spoiler>
+
+---
+
+## _Палитра_
+
+<CharacterPagePalette palette={FOX_PALETTE} />
+
+---
+
+## _Mood board_
+
+<CharacterPageImagesBoard images={FOX_MOOD_BOARD} />

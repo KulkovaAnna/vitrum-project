@@ -1,0 +1,14 @@
+{
+  "logo.alt": {
+    "message": "Лого сайта",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Books": {
+    "message": "Книги",
+    "description": "Navbar item with label Books"
+  },
+  "item.label.Characters": {
+    "message": "Персонажи",
+    "description": "Navbar item with label Characters"
+  }
+}

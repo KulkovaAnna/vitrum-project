@@ -1,0 +1,30 @@
+.spoiler {
+  user-select: none;
+  filter: blur(5px);
+  transition: filter 1s ease;
+}
+
+.cleanButton {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: var(--spacing-s);
+  justify-content: space-between;
+}
+
+.buttonContainer button {
+  width: 50%;
+  margin-top: var(--spacing-md);
+}
+
+.checkboxContainer {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  font-weight: bold;
+}
