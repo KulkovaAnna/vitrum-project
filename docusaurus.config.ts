@@ -1,6 +1,9 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const config: Config = {
   title: 'Витрум-Вики',
@@ -9,11 +12,13 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'http://localhost:3000',
-  baseUrl: '/',
+  url: 'https://KulkovaAnna.github.io',
+  baseUrl: process.env.PUBLIC_ASSET_PREFIX || '/',
   organizationName: 'KulkovaAnna',
-  projectName: 'VitrumProject',
+  projectName: 'vitrum-project',
+  deploymentBranch: 'gh-pages',
   onBrokenLinks: 'throw',
+  trailingSlash: false,
   i18n: {
     defaultLocale: 'ru',
     locales: ['ru', 'en'],
@@ -89,6 +94,12 @@ const config: Config = {
       darkTheme: prismThemes.gruvboxMaterialDark,
     },
   } satisfies Preset.ThemeConfig,
+
+  customFields: {
+    env: {
+      assetPrefix: process.env.PUBLIC_ASSET_PREFIX || '/',
+    },
+  },
 };
 
 export default config;

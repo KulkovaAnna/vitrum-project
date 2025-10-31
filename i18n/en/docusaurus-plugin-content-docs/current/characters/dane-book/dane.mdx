@@ -1,0 +1,208 @@
+---
+id: dane
+sidebar_position: 2
+---
+
+# Dane
+
+import {
+  CharacterPagePalette,
+  CharacterPageRoleChip,
+  CharacterPageInfoBlock,
+  CharacterPageImagesBoard,
+  QuotePlayer,
+  Grid,
+  Spoiler,
+  Image,
+} from '@/components';
+import { DANE_PALETTE } from '@/constants/characters/palettes.ts';
+import { DANE_MOOD_BOARD } from '@/constants/characters/moodBoards';
+
+<Image
+  src="/img/characters/dane/Dog.png"
+  alt="Dane character portrait"
+  className="portrait"
+/>
+
+## _Basic Information_
+
+<CharacterPageRoleChip role="secondary" />
+
+<Grid className="mt" columns={2}>
+  <div>
+    <CharacterPageInfoBlock label="Gender" id="char-sex">
+      Male
+    </CharacterPageInfoBlock>
+    <CharacterPageInfoBlock label="Real Name" id="char-realName">
+      Unknown (Vadim — unconfirmed)
+    </CharacterPageInfoBlock>
+  </div>
+  <div>
+    <CharacterPageInfoBlock label="Age" id="char-age">
+      <ul>
+        <li>At the beginning of the story: 45</li>
+        <li>At the end of the story: 47</li>
+      </ul>
+    </CharacterPageInfoBlock>
+  </div>
+</Grid>
+
+<CharacterPageInfoBlock label="Short Description" id="char-short-description">
+  Dane is the pragmatic leader and founder of the Family, a community surviving
+  in the harsh Glass Wasteland. A strong-willed, cold, and incredibly
+  responsible strategist, he controls every aspect of his community's life, from
+  defense to resource distribution. His decisions are always weighed and devoid
+  of sentiment, as the price of a mistake is the death of those who have trusted
+  him. Behind this iron exterior lies a deep, almost unspoken care for his
+  people and his teenage son, whose desire to prove his maturity Dane
+  simultaneously encourages and warily restrains. He is the living embodiment of
+  the heavy price of survival, a man who chose to build a fortress of rules and
+  duty to never again succumb to the chaos that once nearly destroyed him.
+</CharacterPageInfoBlock>
+
+---
+
+## _Appearance_
+
+<Grid columns={3} mobileAdaptive>
+  <CharacterPageInfoBlock label="Height" id="char-height">
+    190 cm
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Weight" id="char-weight">
+    95 kg
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Body Type" id="char-body-type">
+    Athletic, with broad shoulders and developed musculature.
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Skin Tone" id="char-body-color">
+    Swarthy, roughened by sun and wind.
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Hairstyle" id="char-hair-type">
+    Short hair.
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Hair Color" id="char-hair-color">
+    Black
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Eye Color" id="char-eye-color">
+    Black
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Face Shape" id="char-face">
+    Square, rigid face with hollow cheeks, deep wrinkles around the mouth, and
+    deep-set eyes.
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Voice" id="char-voice">
+    <QuotePlayer
+      src="/audio/characters/dane/voices/sample-3s.mp3"
+      quote="Enough! You will do as I say. No hysterics, no stupid questions. Because I am responsible for every single life in this Mine, not just for your boyish pride. Do I make myself clear?"
+    />
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Distinguishing Features" id="char-features">
+    A heavy gaze that can subdue anyone without a word. A fragment of a dog's
+    chain around his neck.
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Clothing" id="char-cloth">
+    Practical and unadorned: rough canvas pants, high boots, a leather coat over
+    a dark shirt.
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Favorite Weapon" id="char-gun">
+    A heavy Taurus Raging Bull .44 Magnum revolver.
+  </CharacterPageInfoBlock>
+</Grid>
+
+---
+
+## _Skills_
+
+<Grid columns={3} mobileAdaptive>
+  <CharacterPageInfoBlock label="Physical" id="char-fiz-stat">
+    <ul>
+      <li>Physically strong (though not as much as in his youth)</li>
+      <li>
+        Highly resilient, capable of working for hours in contaminated zones,
+        carrying heavy loads, and fighting
+      </li>
+      <li>
+        <Spoiler>
+          Before his injury in the Vitrage Storm, he was exceptionally agile for
+          his age. After the injury, he became less nimble and noticeably lost
+          his physical superiority
+        </Spoiler>
+      </li>
+    </ul>
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Combat" id="char-battle-stat">
+    Skilled with almost all known firearms and melee weapons. Prefers an assault
+    rifle and a heavy revolver.
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Social" id="char-social-stat">
+    <ul>
+      <li>A tough but fair leader</li>
+      <li>An excellent crisis manager</li>
+      <li>
+        Capable of inspiring, motivating, suppressing rebellions, and allocating
+        resources
+      </li>
+      <li>Skilled in negotiations</li>
+      <li>
+        Low empathy — unable to discuss feelings or offer emotional support
+      </li>
+    </ul>
+  </CharacterPageInfoBlock>
+</Grid>
+
+---
+
+## _Backstory_
+
+<Spoiler>
+  <p>
+    Dane's origins are lost to the chaos of the Wasteland's early years. Thrown
+    into the apocalypse as a child, he knew no law but the right of the strong
+    and had no goal other than survival. His cruelty and fury became his only
+    shield against a hostile world.
+  </p>
+  <p>
+    He found his natural environment in the Pack — a gang that valued strength
+    and aggression above all. Given the nickname "Wolf," he found in it both a
+    home and a calling, surrendering completely to chaos and violence. Drugs
+    amplified his power, and Grim, a new comrade, encouraged his darkest
+    impulses, seeing them as an art form. Dane didn't concern himself with
+    morality — he enjoyed feeling like a god of destruction.
+  </p>
+  <p>
+    Everything collapsed during the raid on the Iron Gates. Drunk on rage and
+    chemicals, he crossed every line, unleashing a massacre where there was no
+    distinction between friend and foe. Waking up in a sea of blood, he realized
+    in horror what he had become. He voluntarily put on a chain, shackling not
+    only his body but also the beast within—a symbol of his total rejection of
+    his former path.
+  </p>
+  <p>
+    However, the main catalyst for his transformation was Francine — a quiet and
+    vulnerable girl who had come to the Pack with Grim. Her strangeness, purity,
+    and difference from others made Dane see that there was more to the world
+    than just chaos. She was not afraid of his rage, seeing the man behind it,
+    and with her calmness and directness, she showed him that a different way of
+    life was possible. For her, he finally broke with his past, vowing to
+    protect with the strength of order, not the strength of destruction.
+  </p>
+  <p>
+    Fleeing the Pack with those who remained loyal, he took Francine with him.
+    With her, he built a new life based on order, discipline, and harsh
+    responsibility. Thus, the Family was born: not a gang, but a fortress where
+    his iron will became a shield for others. He did not forget who he was. He
+    simply made sure to remember who he never wanted to be again.
+  </p>
+</Spoiler>
+
+---
+
+## _Palette_
+
+<CharacterPagePalette palette={DANE_PALETTE} />
+
+---
+
+## _Mood board_
+
+<CharacterPageImagesBoard images={DANE_MOOD_BOARD} />

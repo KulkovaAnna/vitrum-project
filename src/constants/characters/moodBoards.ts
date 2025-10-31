@@ -66,3 +66,36 @@ export const JETT_MOOD_BOARD: CharacterPageImagesBoardImage[] = [
     src: '/img/characters/jett/mood-board/Jett-Shards.png',
   },
 ];
+
+export const DANE_MOOD_BOARD: CharacterPageImagesBoardImage[] = [
+  {
+    key: '1',
+    alt: translate({ id: 'theme.characterPage.moodBoard.dane.image1' }),
+    src: '/img/characters/dane/mood-board/Dog-revolvet.png',
+  },
+  {
+    key: '2',
+    alt: translate({ id: 'theme.characterPage.moodBoard.dane.image2' }),
+    src: '/img/characters/dane/mood-board/Dog-maps.png',
+  },
+  {
+    key: '3',
+    alt: translate({ id: 'theme.characterPage.moodBoard.dane.image3' }),
+    src: '/img/characters/dane/mood-board/Dog-cigarette.png',
+  },
+  {
+    key: '4',
+    alt: translate({ id: 'theme.characterPage.moodBoard.dane.image4' }),
+    src: '/img/characters/dane/mood-board/Dog-portrait.png',
+  },
+  {
+    key: '5',
+    alt: translate({ id: 'theme.characterPage.moodBoard.dane.image5' }),
+    src: '/img/characters/dane/mood-board/Dog-chain.png',
+  },
+  {
+    key: '6',
+    alt: translate({ id: 'theme.characterPage.moodBoard.dane.image6' }),
+    src: '/img/characters/dane/mood-board/Dog-dog.png',
+  },
+];

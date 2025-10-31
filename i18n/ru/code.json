@@ -406,5 +406,23 @@
   },
   "theme.spoiler.clickToSee": {
     "message": "Кликните, чтобы увидеть спойлер"
+  },
+  "theme.characterPage.moodBoard.dane.image1": {
+    "message": "Револьвер в руке"
+  },
+  "theme.characterPage.moodBoard.dane.image2": {
+    "message": "Карты"
+  },
+  "theme.characterPage.moodBoard.dane.image3": {
+    "message": "Сигарета"
+  },
+  "theme.characterPage.moodBoard.dane.image4": {
+    "message": "Фото женщины"
+  },
+  "theme.characterPage.moodBoard.dane.image5": {
+    "message": "Собачья цепь"
+  },
+  "theme.characterPage.moodBoard.dane.image6": {
+    "message": "Немецкий Дог и ребенок"
   }
 }

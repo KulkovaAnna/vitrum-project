@@ -13,12 +13,13 @@ import {
   QuotePlayer,
   Grid,
   Spoiler,
+  Image,
 } from '@/components';
 import { JETT_PALETTE } from '@/constants/characters/palettes.ts';
 import { JETT_MOOD_BOARD } from '@/constants/characters/moodBoards';
 
-<img
-  src="/en/img/characters/jett/Jett.png"
+<Image
+  src="/img/characters/jett/Jett.png"
   alt="Jett character portrait"
   className="portrait"
 />
@@ -90,7 +91,7 @@ import { JETT_MOOD_BOARD } from '@/constants/characters/moodBoards';
   </CharacterPageInfoBlock>
   <CharacterPageInfoBlock label="Voice" id="char-voice">
     <QuotePlayer
-      src="/en/audio/characters/fox/voices/sample-3s.mp3"
+      src="/audio/characters/fox/voices/sample-3s.mp3"
       quote="...and he just roars, GRRRAAAH! So I duck and roll right under him! Go for the knife, aiming for the tendon, you know? But the bastard was too fast, like, barely grazed him... Next thing I know, he's on me. Thought I was bear food for sure! Yeah, right! Jammed my assault rifle right down his throat and let it rip! The mess, Lynx—guts, brains, everything—it was everywhere!"
     />
   </CharacterPageInfoBlock>
@@ -167,4 +168,4 @@ the past, but the person he had become.
 
 ## _Mood board_
 
-<CharacterPageImagesBoard images={JETT_MOOD_BOARD} locale="en" />
+<CharacterPageImagesBoard images={JETT_MOOD_BOARD} />

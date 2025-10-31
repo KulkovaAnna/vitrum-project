@@ -406,5 +406,23 @@
   },
   "theme.spoiler.clickToSee": {
     "message": "Click here to see spoiler"
+  },
+  "theme.characterPage.moodBoard.dane.image1": {
+    "message": "Revolver in a hand"
+  },
+  "theme.characterPage.moodBoard.dane.image2": {
+    "message": "Maps"
+  },
+  "theme.characterPage.moodBoard.dane.image3": {
+    "message": "Cigarette"
+  },
+  "theme.characterPage.moodBoard.dane.image4": {
+    "message": "Photo of a woman"
+  },
+  "theme.characterPage.moodBoard.dane.image5": {
+    "message": "Dog chain"
+  },
+  "theme.characterPage.moodBoard.dane.image6": {
+    "message": "Great Dane with a child"
   }
 }

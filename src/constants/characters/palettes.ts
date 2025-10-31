@@ -54,3 +54,30 @@ export const JETT_PALETTE: Palette = new Map([
     },
   ],
 ]);
+
+export const DANE_PALETTE: Palette = new Map([
+  [
+    translate({ id: 'theme.characterPage.palette.cloth' }),
+    {
+      colors: ['#330e05', '#333333', '#0b0a29'],
+      gradient:
+        'linear-gradient(90deg,rgba(51, 14, 5, 1) 0%, rgba(51, 51, 51, 1) 50%, rgba(11, 10, 41, 1) 100%)',
+    },
+  ],
+  [
+    translate({ id: 'theme.characterPage.palette.body' }),
+    {
+      colors: ['#000000', '#96744e'],
+      gradient:
+        'linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgba(150, 116, 78, 1) 100%)',
+    },
+  ],
+  [
+    translate({ id: 'theme.characterPage.palette.mood' }),
+    {
+      colors: ['#797979', '#a9d7fa', '#ffffff'],
+      gradient:
+        'linear-gradient(90deg,rgba(121, 121, 121, 1) 0%, rgba(169, 215, 250, 1) 50%, rgba(255, 255, 255, 1) 100%)',
+    },
+  ],
+]);

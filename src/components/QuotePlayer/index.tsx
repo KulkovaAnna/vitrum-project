@@ -1,5 +1,6 @@
+import useFormatStaticSrc from '@/hooks/useFormatStaticSrc';
 import { useRef, useState } from 'react';
-import { PlayIcon, PauseIcon } from '../icons';
+import { PauseIcon, PlayIcon } from '../icons';
 import styles from './styles.module.css';
 
 interface Props {
@@ -27,10 +28,12 @@ export default function QuotePlayer(props: Props) {
     setIsPlaying(false);
   };
 
+  const formattedSrc = useFormatStaticSrc(src);
+
   return (
     <div className={styles.container}>
       <audio
-        src={src}
+        src={formattedSrc}
         ref={audioRef}
         onPlay={handlePlay}
         onPause={handlePause}

@@ -1,6 +1,6 @@
 ---
 id: fox
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Fox
@@ -13,12 +13,13 @@ import {
   QuotePlayer,
   Grid,
   Spoiler,
+  Image,
 } from '@/components';
 import { FOX_PALETTE } from '@/constants/characters/palettes.ts';
 import { FOX_MOOD_BOARD } from '@/constants/characters/moodBoards';
 
-<img
-  src="/en/img/characters/fox/Fox.png"
+<Image
+  src="/img/characters/fox/Fox.png"
   alt="Fox character portrait"
   className="portrait"
 />
@@ -93,7 +94,7 @@ import { FOX_MOOD_BOARD } from '@/constants/characters/moodBoards';
   </CharacterPageInfoBlock>
   <CharacterPageInfoBlock label="Voice" id="char-voice">
     <QuotePlayer
-      src="/en/audio/characters/fox/voices/sample-3s.mp3"
+      src="/audio/characters/fox/voices/sample-3s.mp3"
       quote="If you want... I can teach you my techniques. How to see without being seen. How to walk without making a sound. How to blend with the shadows, even in broad daylight."
     />
   </CharacterPageInfoBlock>
@@ -180,4 +181,4 @@ import { FOX_MOOD_BOARD } from '@/constants/characters/moodBoards';
 
 ## _Mood board_
 
-<CharacterPageImagesBoard images={FOX_MOOD_BOARD} locale="en" />
+<CharacterPageImagesBoard images={FOX_MOOD_BOARD} />

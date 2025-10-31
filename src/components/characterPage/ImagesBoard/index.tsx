@@ -1,3 +1,4 @@
+import Image from '../../Image';
 import styles from './styles.module.css';
 
 export interface CharacterPageImagesBoardImage {
@@ -8,21 +9,15 @@ export interface CharacterPageImagesBoardImage {
 
 interface Props {
   images: CharacterPageImagesBoardImage[];
-  locale?: 'ru' | 'en';
 }
 
 export default function CharacterPageImagesBoard(props: Props) {
-  const { locale, images } = props;
+  const { images } = props;
 
   return (
     <div className={styles.container}>
       {images.map((image) => (
-        <img
-          key={image.key}
-          className={styles.squareImage}
-          src={`${locale ? '/' : ''}${locale ?? ''}${image.src}`}
-          alt={image.alt}
-        />
+        <Image {...image} className={styles.squareImage} />
       ))}
     </div>
   );
