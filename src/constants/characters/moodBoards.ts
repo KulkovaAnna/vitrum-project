@@ -99,3 +99,37 @@ export const DANE_MOOD_BOARD: CharacterPageImagesBoardImage[] = [
     src: '/img/characters/dane/mood-board/Dog-dog.png',
   },
 ];
+
+export const REESE_MOOD_BOARD: CharacterPageImagesBoardImage[] = [
+  {
+    key: '1',
+    alt: translate({ id: 'theme.characterPage.moodBoard.reese.image1' }),
+    src: '/img/characters/reese/mood-board/Reese-Jay.png',
+  },
+  {
+    key: '2',
+    alt: translate({ id: 'theme.characterPage.moodBoard.reese.image2' }),
+    src: '/img/characters/reese/mood-board/Reese-Hair.png',
+  },
+  {
+    key: '3',
+    alt: translate({ id: 'theme.characterPage.moodBoard.reese.image3' }),
+    src: '/img/characters/reese/mood-board/Reese-Tea.png',
+  },
+  {
+    key: '4',
+    alt: translate({ id: 'theme.characterPage.moodBoard.reese.image4' }),
+    src: '/img/characters/reese/mood-board/Reese-bunker.png',
+    spoiler: true,
+  },
+  {
+    key: '5',
+    alt: translate({ id: 'theme.characterPage.moodBoard.reese.image5' }),
+    src: '/img/characters/reese/mood-board/Reese-Soap.png',
+  },
+  {
+    key: '6',
+    alt: translate({ id: 'theme.characterPage.moodBoard.reese.image6' }),
+    src: '/img/characters/reese/mood-board/Reese-Wheat.png',
+  },
+];

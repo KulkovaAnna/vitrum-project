@@ -5,7 +5,9 @@ import Modal from '../Modal';
 import { translate } from '@docusaurus/Translate';
 import Button from '../Button';
 
-interface Props {}
+interface Props {
+  fullHide?: boolean;
+}
 
 export default function Spoiler(props: PropsWithChildren<Props>) {
   const [isShown, setIsShown] = useState(false);
@@ -46,6 +48,7 @@ export default function Spoiler(props: PropsWithChildren<Props>) {
           className={clsx({
             [styles.spoiler]: !isShown,
             [styles.cleanButton]: true,
+            [styles.fullHide]: props.fullHide && !isShown,
           })}
         >
           {props.children}

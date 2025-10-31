@@ -1,3 +1,4 @@
+import Spoiler from '@/components/Spoiler';
 import Image from '../../Image';
 import styles from './styles.module.css';
 
@@ -5,6 +6,7 @@ export interface CharacterPageImagesBoardImage {
   src: string;
   key: string;
   alt: string;
+  spoiler?: boolean;
 }
 
 interface Props {
@@ -16,9 +18,15 @@ export default function CharacterPageImagesBoard(props: Props) {
 
   return (
     <div className={styles.container}>
-      {images.map((image) => (
-        <Image {...image} className={styles.squareImage} />
-      ))}
+      {images.map(({ spoiler, ...image }) =>
+        spoiler ? (
+          <Spoiler fullHide>
+            <Image {...image} className={styles.squareImage} />
+          </Spoiler>
+        ) : (
+          <Image {...image} className={styles.squareImage} />
+        )
+      )}
     </div>
   );
 }

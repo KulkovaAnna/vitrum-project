@@ -424,5 +424,23 @@
   },
   "theme.characterPage.moodBoard.dane.image6": {
     "message": "Немецкий Дог и ребенок"
+  },
+  "theme.characterPage.moodBoard.reese.image1": {
+    "message": "Сойка"
+  },
+  "theme.characterPage.moodBoard.reese.image2": {
+    "message": "Голубая резинка"
+  },
+  "theme.characterPage.moodBoard.reese.image3": {
+    "message": "Чай"
+  },
+  "theme.characterPage.moodBoard.reese.image4": {
+    "message": "Бункер"
+  },
+  "theme.characterPage.moodBoard.reese.image5": {
+    "message": "Мыло и полынь"
+  },
+  "theme.characterPage.moodBoard.reese.image6": {
+    "message": "Пшеница"
   }
 }

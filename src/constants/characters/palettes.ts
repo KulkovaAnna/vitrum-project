@@ -81,3 +81,30 @@ export const DANE_PALETTE: Palette = new Map([
     },
   ],
 ]);
+
+export const REESE_PALETTE: Palette = new Map([
+  [
+    translate({ id: 'theme.characterPage.palette.cloth' }),
+    {
+      colors: ['#0CB7FA', '#073763', '#0B420B'],
+      gradient:
+        'linear-gradient(90deg,rgba(12, 183, 250, 1) 0%, rgba(7, 55, 99, 1) 50%, rgba(11, 66, 11, 1) 100%)',
+    },
+  ],
+  [
+    translate({ id: 'theme.characterPage.palette.body' }),
+    {
+      colors: ['#D1B6A3', '#F1D69F', '#91A9B8'],
+      gradient:
+        'linear-gradient(90deg,rgba(209, 182, 163, 1) 0%, rgba(241, 214, 159, 1) 50%, rgba(145, 169, 184, 1) 100%)',
+    },
+  ],
+  [
+    translate({ id: 'theme.characterPage.palette.mood' }),
+    {
+      colors: ['#EEAECA', '#F2BBA0', '#D1E9FF'],
+      gradient:
+        'radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(242, 187, 160, 1) 50%, rgba(209, 233, 255, 1) 100%)',
+    },
+  ],
+]);

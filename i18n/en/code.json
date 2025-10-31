@@ -424,5 +424,23 @@
   },
   "theme.characterPage.moodBoard.dane.image6": {
     "message": "Great Dane with a child"
+  },
+  "theme.characterPage.moodBoard.reese.image1": {
+    "message": "Jay"
+  },
+  "theme.characterPage.moodBoard.reese.image2": {
+    "message": "Hair"
+  },
+  "theme.characterPage.moodBoard.reese.image3": {
+    "message": "Tea"
+  },
+  "theme.characterPage.moodBoard.reese.image4": {
+    "message": "Bunker"
+  },
+  "theme.characterPage.moodBoard.reese.image5": {
+    "message": "Soap"
+  },
+  "theme.characterPage.moodBoard.reese.image6": {
+    "message": "Wheat"
   }
 }

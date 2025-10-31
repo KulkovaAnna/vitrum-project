@@ -37,5 +37,5 @@
 }
 
 p {
-  margin: 0;
+  margin-bottom: var(--spacing-xs);
 }

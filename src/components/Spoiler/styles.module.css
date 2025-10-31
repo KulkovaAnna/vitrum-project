@@ -8,6 +8,10 @@
   transition: filter 1s ease;
 }
 
+.fullHide {
+  filter: blur(20px);
+}
+
 .cleanButton {
   background: none;
   border: none;
