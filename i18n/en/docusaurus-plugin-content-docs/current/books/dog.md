@@ -1,5 +1,0 @@
----
-id: dog-book
----
-
-# Dog
