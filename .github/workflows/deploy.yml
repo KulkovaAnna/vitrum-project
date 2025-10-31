@@ -21,6 +21,8 @@ jobs:
 
       - name: Build site
         run: npm run build
+        env:
+          PUBLIC_ASSET_PREFIX: ${{ secrets.PUBLIC_ASSET_PREFIX }}
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
