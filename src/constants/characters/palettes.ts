@@ -108,3 +108,30 @@ export const REESE_PALETTE: Palette = new Map([
     },
   ],
 ]);
+
+export const LYNX_PALETTE: Palette = new Map([
+  [
+    translate({ id: 'theme.characterPage.palette.cloth' }),
+    {
+      colors: ['#5a4d41', '#3e3a32', '#26221d'],
+      gradient:
+        'linear-gradient(135deg, #26221d 0%, #3e3a32 50%, #5a4d41 100%)',
+    },
+  ],
+  [
+    translate({ id: 'theme.characterPage.palette.body' }),
+    {
+      colors: ['#d4a574', '#a78a6d', '#8c6e5a'],
+      gradient:
+        'linear-gradient(135deg, #d4a574 0%, #a78a6d 50%, #8c6e5a 100%)',
+    },
+  ],
+  [
+    translate({ id: 'theme.characterPage.palette.mood' }),
+    {
+      colors: ['#c97e5a', '#e9c46a', '#7a5900'],
+      gradient:
+        'linear-gradient(135deg, #c97e5a 0%, #e9c46a 50%, #7a5900 100%)',
+    },
+  ],
+]);

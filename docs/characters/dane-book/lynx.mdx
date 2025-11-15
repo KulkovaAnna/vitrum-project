@@ -1,0 +1,188 @@
+---
+id: lynx
+---
+
+# Рысь
+
+import {
+  CharacterPagePalette,
+  CharacterPageRoleChip,
+  CharacterPageInfoBlock,
+  CharacterPageImagesBoard,
+  QuotePlayer,
+  Grid,
+  Spoiler,
+  Image,
+} from '@/components';
+import { LYNX_PALETTE } from '@/constants/characters/palettes.ts';
+import { LYNX_MOOD_BOARD } from '@/constants/characters/moodBoards';
+
+<Image
+  src={`/img/characters/lynx/Lynx.png`}
+  alt="Портрет персонажа Рысь"
+  className="portrait"
+/>
+
+## _Основная информация_
+
+<CharacterPageRoleChip role="secondary" />
+
+<Grid className="mt" columns={2}>
+  <div>
+    <CharacterPageInfoBlock label="Пол" id="char-sex">
+      Женский
+    </CharacterPageInfoBlock>
+    <CharacterPageInfoBlock label="Настоящее имя" id="char-realName">
+      Неизвестно
+    </CharacterPageInfoBlock>
+  </div>
+  <div>
+    <CharacterPageInfoBlock label="Возраст" id="char-age">
+      <ul>
+        <li> В начале истории: 38</li>
+        <li> В конце истории: 40</li>
+      </ul>
+    </CharacterPageInfoBlock>
+  </div>
+</Grid>
+
+<CharacterPageInfoBlock label="Краткое описание" id="char-short-description">
+  Рысь — воплощение суровой, почти первобытной силы и материнской преданности.
+  За её внешностью, напоминающей уставшую, но несокрушимую медведицу, скрывается
+  железная воля и бездонная, редко проявляемая нежность к тем, кого она считает
+  семьёй. Это женщина, прошедшая через ад и построившая в его преддверии свой
+  дом, который будет защищать с яростью раненого зверя.
+</CharacterPageInfoBlock>
+
+---
+
+## _Внешность_
+
+<Grid columns={3} mobileAdaptive>
+  <CharacterPageInfoBlock label="Рост" id="char-height">
+    175см
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Вес" id="char-weight">
+    85кг
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Телосложение" id="char-body-type">
+    Мощное, плотное, с хорошо развитой мускулатурой, скрытой под мягкими, почти
+    материнскими формами
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Цвет кожи" id="char-body-color">
+    Смуглая, обветренная, покрытая слоем вечной дорожной пыли и патиной старой
+    стали
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Причёска" id="char-hair-type">
+    Боб
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Цвет волос" id="char-hair-color">
+    Светлый с проседью
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Цвет глаз" id="char-eye-color">
+    Карий
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Форма лица" id="char-face">
+    Широкие скулы, массивная, решительная челюсть.
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Голос" id="char-voice">
+    <QuotePlayer
+      src="/audio/characters/lynx/voices/sample-3s.mp3"
+      quote="Да, как всегда. Тишь да гладь. Сидим впятером, кукуем. Кайман мой уже начал прядильщиков пытаться приручать. Кормит их хлебными крошками, старый дурень. А ты тут как? Забыл уже, когда к нам на вышку наведывался. Весь в делах?"
+    />
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock
+    label="Отличительные черты внешности"
+    id="char-features"
+  >
+    Потертости и старые ожоги на ладонях и пальцах
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Одежда" id="char-cloth">
+    Поношенная, латанная кожаная куртка поверх простой тёмной ткани. Прочные,
+    заправленные в высокие ботинки штаны. Никаких украшений, кроме, возможно,
+    какого-нибудь талисмана, подаренного Грифом в детстве
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Любимое оружие" id="char-gun">
+    Тяжёлый тесак или мачете, который служит и как оружие, и как инструмент. На
+    поясе всегда пристёгнут надежный, неказистый пистолет
+  </CharacterPageInfoBlock>
+</Grid>
+
+---
+
+## _Навыки_
+
+<Grid columns={3} mobileAdaptive>
+  <CharacterPageInfoBlock label="Физические" id="char-fiz-stat">
+    Невероятная выносливость, силовой хват. Не быстрая, но мощная и неутомимая.
+    Прекрасно владеет своим телом в ближнем бою
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Боевые" id="char-battle-stat">
+    Мастер ближнего боя. Её стиль — рубка и подавление. Сильна в обороне, в
+    удержании позиции. Отличный тактик, способный видеть поле боя и
+    предугадывать действия противника на основе опыта, а не хитрых расчётов
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Социальные" id="char-social-stat">
+    Обладает редким даром — её уважают и побаиваются одновременно. Крайне
+    немногословна, но каждое её слово имеет вес. Её молчаливое одобрение значит
+    больше, чем пафосные речи других. Умеет слушать и видеть суть людей, их
+    скрытые страхи и мотивы. Невероятно эмпатична, хотя и старается этого не
+    показывать
+  </CharacterPageInfoBlock>
+</Grid>
+
+---
+
+## _Предыстория_
+
+<p>
+  Рысь не помнит жизни до Стаи. Попав в банду ребёнком, она быстро усвоила
+  главный закон: сильный поедает слабого. Чтобы выжить среди садистов и
+  отбросов, она стала тише воды и острее бритвы. Её не интересовали наркотики
+  или власть — только выживание. Она стала идеальным инструментом:
+  безэмоциональным, эффективным и незаметным, тем, кого посылали на «тихую»
+  работу.
+</p>
+<p>
+  Она никогда не была душой компании. Пока другие рейдеры буйствовали, она
+  делала своё дело, оставаясь в тени.
+</p>
+<Spoiler>
+  <p>
+    В этой роли она стала единственным человеком, кто видел полную картину. Она
+    наблюдала, как Дог, самый яростный зверь Стаи, сломался и потерял контроль
+    на внутренним зверем. И она же, затаив дыхание, смотрела, как он, обезумев
+    от ужаса перед самим собой, добровольно надел на себя цепь. Этот поступок
+    был настолько чужд всему, что она знала, что заставил её впервые не просто
+    <i>смотреть</i>, а <i>видеть</i>. Позже она стала свидетельницей того, как хрупкая
+    Франциска смогла достучаться до закованного зверя. И это сработало.
+  </p>
+  <p>
+    Решение уйти с Догом не было для Рыси продиктовано верой в добро. Оно было
+    стратегическим расчётом. Стая гнила и была обречена. Дог, даже в своём
+    падении, был сильнее, а его метод — сила воли — показал результат. В новой
+    структуре, построенной на порядке, у такой как она — эффективной и верной —
+    было куда больше шансов на стабильность.
+  </p>
+</Spoiler>
+<p>
+  Уже после ухода она узнала о беременности. Это не стало трагедией, а
+  превратилось в последнее испытание. В Стае дети были слабостью. В их новом
+  мире её сын должен был стать символом силы. Силы её выбора, силы Семьи, силы
+  жизни, победившей смерть.
+</p>
+<p>
+  Теперь Рысь — не тень. Она — столп. Живое доказательство того, что даже из
+  самого хаоса можно выковать нечто прочное. И она защищает это наследие с
+  яростью, которую копила всю свою жизнь.
+</p>
+
+## _Палитра_
+
+<CharacterPagePalette palette={LYNX_PALETTE} />
+
+---
+
+## _Mood board_
+
+<CharacterPageImagesBoard images={LYNX_MOOD_BOARD} />

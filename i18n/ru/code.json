@@ -442,5 +442,23 @@
   },
   "theme.characterPage.moodBoard.reese.image6": {
     "message": "Пшеница"
+  },
+  "theme.characterPage.moodBoard.lynx.image1": {
+    "message": "Медведица с медвежатами"
+  },
+  "theme.characterPage.moodBoard.lynx.image2": {
+    "message": "Утес"
+  },
+  "theme.characterPage.moodBoard.lynx.image3": {
+    "message": "Маяк"
+  },
+  "theme.characterPage.moodBoard.lynx.image4": {
+    "message": "Нож"
+  },
+  "theme.characterPage.moodBoard.lynx.image5": {
+    "message": "Поляница"
+  },
+  "theme.characterPage.moodBoard.lynx.image6": {
+    "message": "Застава"
   }
 }

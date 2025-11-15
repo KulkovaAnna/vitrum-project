@@ -1,0 +1,188 @@
+---
+id: lynx
+---
+
+# Lynx
+
+import {
+  CharacterPagePalette,
+  CharacterPageRoleChip,
+  CharacterPageInfoBlock,
+  CharacterPageImagesBoard,
+  QuotePlayer,
+  Grid,
+  Spoiler,
+  Image,
+} from '@/components';
+import { LYNX_PALETTE } from '@/constants/characters/palettes.ts';
+import { LYNX_MOOD_BOARD } from '@/constants/characters/moodBoards';
+
+<Image
+  src="/img/characters/lynx/Lynx.png"
+  alt="Lynx character portrait"
+  className="portrait"
+/>
+
+## _Basic Information_
+
+<CharacterPageRoleChip role="secondary" />
+
+<Grid className="mt" columns={2}>
+  <div>
+    <CharacterPageInfoBlock label="Gender" id="char-sex">
+      Female
+    </CharacterPageInfoBlock>
+    <CharacterPageInfoBlock label="Real Name" id="char-realName">
+      Unknown
+    </CharacterPageInfoBlock>
+  </div>
+  <div>
+    <CharacterPageInfoBlock label="Age" id="char-age">
+      <ul>
+        <li>At the beginning of the story: 38</li>
+        <li>At the end of the story: 40</li>
+      </ul>
+    </CharacterPageInfoBlock>
+  </div>
+</Grid>
+
+<CharacterPageInfoBlock label="Short Description" id="char-short-description">
+  Lynx is the embodiment of harsh, almost primal strength and maternal devotion.
+  Behind her appearance, which brings to mind a weary but unbreakable she-bear,
+  lies an iron will and a deep, rarely shown tenderness for those she considers
+  family. She is a woman who has passed through hell and built her home on its
+  doorstep, a home she will defend with the fury of a wounded beast.
+</CharacterPageInfoBlock>
+
+---
+
+## _Appearance_
+
+<Grid columns={3} mobileAdaptive>
+  <CharacterPageInfoBlock label="Height" id="char-height">
+    175 cm
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Weight" id="char-weight">
+    85 kg
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Body Type" id="char-body-type">
+    Powerful, dense, with well-developed musculature hidden under soft, almost
+    maternal curves
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Skin Tone" id="char-body-color">
+    Swarthy, weathered, covered in a layer of perpetual road dust and the patina
+    of old steel
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Hairstyle" id="char-hair-type">
+    Bob-hair
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Hair Color" id="char-hair-color">
+    Light blonde with silver streaks
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Eye Color" id="char-eye-color">
+    Brown
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Face Shape" id="char-face">
+    Wide cheekbones, a massive, resolute jaw
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Voice" id="char-voice">
+    <QuotePlayer
+      src="/audio/characters/fox/voices/sample-3s.mp3"
+      quote="Well, you know. Same as always. All quiet on the western front. The five of us, just coopin' away. My Cayman's already trying to tame the Weavers. Feeding 'em breadcrumbs, the old fool. And you? Can't remember the last time you showed your face around here. Swamped with work?"
+    />
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Distinguishing Features" id="char-features">
+    Calluses and old burns on her palms and fingers
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Clothing" id="char-cloth">
+    A worn, patched leather jacket over simple dark fabric. Sturdy pants tucked
+    into high boots. No jewelry, except perhaps for a talisman given to her by
+    Vulture in his childhood
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Favorite Weapon" id="char-gun">
+    A heavy cleaver or machete that serves as both a weapon and a tool. A
+    reliable, unpretentious pistol is always holstered on her belt
+  </CharacterPageInfoBlock>
+</Grid>
+
+---
+
+## _Skills_
+
+<Grid columns={3} mobileAdaptive>
+  <CharacterPageInfoBlock label="Physical" id="char-fiz-stat">
+    Incredible endurance, a powerful grip. Not fast, but strong and tireless.
+    Excellent control of her body in close combat
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Combat" id="char-battle-stat">
+    A master of close-quarters combat. Her style is not about fencing, but about
+    chopping and suppressing. Strong in defense, in holding a position. An
+    excellent tactician, able to read the battlefield and predict enemy actions
+    based on experience, not complex calculations
+  </CharacterPageInfoBlock>
+  <CharacterPageInfoBlock label="Social" id="char-social-stat">
+    Possesses a rare gift—she is both respected and feared simultaneously.
+    Extremely taciturn, but every word carries weight. Her silent approval means
+    more than the pompous speeches of others. She knows how to listen and see
+    the core of people, their hidden fears and motives
+  </CharacterPageInfoBlock>
+</Grid>
+
+---
+
+## _Backstory_
+
+<p>
+  Lynx remembers no life before the Pack. Thrown into the gang as a child, she
+  quickly learned its prime law: the strong prey on the weak. To survive among
+  sadists and scum, she became still as still water and sharper than a steel
+  trap. She cared nothing for drugs or power — only survival. She became the
+  perfect tool: emotionless, efficient, and forgettable, the one they sent on
+  the "quiet" jobs.
+</p>
+<p>
+  She was never the life of the party. While other raiders caroused, she did her
+  work, melting into the shadows.
+</p>
+<Spoiler>
+  <p>
+    But in her role as a ghost, she became the only one who saw the whole
+    picture. She watched as Dane, the Pack's most ferocious beast, broke and
+    became Grim's puppet. And she watched, holding her breath, as he, sickened
+    by his own reflection, chose to chain himself. This act was so alien to
+    everything she knew that it made her, for the first time, not just look, but
+    see. Later, she witnessed how the fragile Francine managed to reach the
+    chained beast. And against all odds, it worked.
+  </p>
+  <p>
+    Her decision to leave with Dane was not born of a sudden belief in good. It
+    was a cold, strategic calculation. The Pack was rotting from within, a
+    sinking ship. Dane, even broken, was a force of nature, and his method —
+    sheer, unyielding will — had proven itself. In a new order built on
+    structure, someone like her—efficient and unshakably loyal — was a valuable
+    asset, a key to stability.
+  </p>
+</Spoiler>
+<p>
+  It was only after leaving that she discovered she was pregnant. The news did
+  not shatter her; it transmuted into a final trial. In the Pack, a child was a
+  liability. In her new world, her son would be a living testament to strength.
+  The strength of her choice, the strength of their Family, the strength of life
+  defying a world of death.
+</p>
+<p>
+  Now, Lynx is a shadow no longer. She is a cornerstone. Living proof that even
+  from chaos, something unyielding can be forged. And she defends this legacy
+  not with a shadow's silence, but with the long-stored fury of a lifetime.
+</p>
+---
+
+## _Palette_
+
+<CharacterPagePalette palette={LYNX_PALETTE} />
+
+---
+
+## _Mood board_
+
+<CharacterPageImagesBoard images={LYNX_MOOD_BOARD} />

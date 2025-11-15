@@ -442,5 +442,23 @@
   },
   "theme.characterPage.moodBoard.reese.image6": {
     "message": "Wheat"
+  },
+  "theme.characterPage.moodBoard.lynx.image1": {
+    "message": "Mother bear"
+  },
+  "theme.characterPage.moodBoard.lynx.image2": {
+    "message": "Cliff"
+  },
+  "theme.characterPage.moodBoard.lynx.image3": {
+    "message": "Beacon"
+  },
+  "theme.characterPage.moodBoard.lynx.image4": {
+    "message": "Knife"
+  },
+  "theme.characterPage.moodBoard.lynx.image5": {
+    "message": "Polyanitsa"
+  },
+  "theme.characterPage.moodBoard.lynx.image6": {
+    "message": "Outpost"
   }
 }
