@@ -133,3 +133,36 @@ export const REESE_MOOD_BOARD: CharacterPageImagesBoardImage[] = [
     src: '/img/characters/reese/mood-board/Reese-Wheat.png',
   },
 ];
+
+export const LYNX_MOOD_BOARD: CharacterPageImagesBoardImage[] = [
+  {
+    key: '1',
+    alt: translate({ id: 'theme.characterPage.moodBoard.lynx.image1' }),
+    src: '/img/characters/lynx/mood-board/Lynx-bear.jpg',
+  },
+  {
+    key: '2',
+    alt: translate({ id: 'theme.characterPage.moodBoard.lynx.image2' }),
+    src: '/img/characters/lynx/mood-board/Lynx-cliff.jpg',
+  },
+  {
+    key: '3',
+    alt: translate({ id: 'theme.characterPage.moodBoard.lynx.image3' }),
+    src: '/img/characters/lynx/mood-board/Lynx-beacon.jpg',
+  },
+  {
+    key: '4',
+    alt: translate({ id: 'theme.characterPage.moodBoard.lynx.image4' }),
+    src: '/img/characters/lynx/mood-board/Lynx-knife.jpg',
+  },
+  {
+    key: '5',
+    alt: translate({ id: 'theme.characterPage.moodBoard.lynx.image5' }),
+    src: '/img/characters/lynx/mood-board/Lynx-bogatyr.png',
+  },
+  {
+    key: '6',
+    alt: translate({ id: 'theme.characterPage.moodBoard.lynx.image6' }),
+    src: '/img/characters/lynx/mood-board/Lynx-outpost.jpg',
+  },
+];
